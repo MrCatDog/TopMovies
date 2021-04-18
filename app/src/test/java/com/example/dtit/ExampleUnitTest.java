@@ -1,4 +1,4 @@
-package com.example.dt_it;
+package com.example.dtit;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.dt_it.endless_recycler;
+package com.example.dtit.endlessRecycler;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;

@@ -1,4 +1,4 @@
-package com.example.dt_it;
+package com.example.dtit;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.dt_it.endless_recycler.EndlessRecyclerViewScrollListener;
-import com.example.dt_it.endless_recycler.RecyclerAdapter;
+import com.example.dtit.endlessRecycler.EndlessRecyclerViewScrollListener;
+import com.example.dtit.endlessRecycler.RecyclerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

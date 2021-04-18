@@ -1,4 +1,4 @@
-package com.example.dt_it.time_fragmetns;
+package com.example.dtit.timeFragmetns;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;

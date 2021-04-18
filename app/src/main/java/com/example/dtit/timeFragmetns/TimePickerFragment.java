@@ -1,4 +1,4 @@
-package com.example.dt_it.time_fragmetns;
+package com.example.dtit.timeFragmetns;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -8,7 +8,7 @@ import android.widget.TimePicker;
 
 import androidx.fragment.app.DialogFragment;
 
-import com.example.dt_it.NotificationPublisher;
+import com.example.dtit.NotificationPublisher;
 
 import org.jetbrains.annotations.NotNull;
 

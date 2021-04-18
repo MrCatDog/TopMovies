@@ -1,4 +1,4 @@
-package com.example.dt_it.endless_recycler;
+package com.example.dtit.endlessRecycler;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

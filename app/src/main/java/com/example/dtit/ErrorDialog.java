@@ -1,4 +1,4 @@
-package com.example.dt_it;
+package com.example.dtit;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
