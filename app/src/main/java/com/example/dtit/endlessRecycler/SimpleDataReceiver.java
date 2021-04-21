@@ -21,7 +21,8 @@ import okhttp3.Response;
 public class SimpleDataReceiver {
 
     public static final String URL_BASE = "https://api.themoviedb.org/3/discover/movie?api_key=";
-    public static final String API_KEY = "69b692b77e12ed10980e6d0ffc4fbc9e";
+    public static final String API_KEY = "69b692b77e12ed1fc4fbc9e";
+    //public static final String API_KEY = "69b692b77e12ed10980e6d0ffc4fbc9e";
     public static final String FILTERS = "&primary_release_year=2019&sort_by=popularity.desc";
     public static final String PAGE_FILTER = "&page=";
     public static final String URL_PIC = "https://image.tmdb.org/t/p/";
@@ -41,6 +42,7 @@ public class SimpleDataReceiver {
             if (response.isSuccessful()) {
                 answer = response.body().bytes();
             } else {
+                //TODO ВОТ ТУТ ТЕРЯЕТСЯ КОД ОШИБКИ API
                 answer = null;
             }
             response.close();

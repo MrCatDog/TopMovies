@@ -36,8 +36,6 @@ public class EndlessRecyclerViewScrollListener extends RecyclerView.OnScrollList
     }
 
     private void onLoadMore(RecyclerView recyclerView) {
-        new Thread(() ->
-                RA.receiveData(recyclerView)
-        ).start();
+        RA.receiveData(recyclerView);
     }
 }
